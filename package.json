@@ -1,0 +1,23 @@
+{
+  "name": "agnet",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "AgentOS starter — persistent, sandboxed AI agents running inside your own backend",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "tsx src/server.ts",
+    "client": "tsx src/client.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@agentos-software/pi": "latest",
+    "@rivet-dev/agentos": "latest",
+    "zod": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
